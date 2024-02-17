@@ -315,7 +315,6 @@ img {
 
 .advantages-list {
   display: flex;
-  /* gap: 24px; */
   flex-direction: column;
   gap: 72px;
 }
@@ -326,7 +325,6 @@ img {
 }
 
 .advantages-subtitles {
-  /* add */
   margin-bottom: 8px;
   text-align: center;
   font-size: 36px;
@@ -337,8 +335,6 @@ img {
 }
 
 .advantages-text {
-  /* add */
-
   max-width: 288px;
   font-size: 16px;
   font-weight: 500;
