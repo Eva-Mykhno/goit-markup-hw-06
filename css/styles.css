@@ -536,7 +536,6 @@ img {
 .footer-social-media {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 72px;
 }
@@ -1041,19 +1040,14 @@ img {
     align-items: flex-start;
   }
 
-  . .footer-social-media {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  /* .footer-social-media-text {
-    text-align: left;
-  } */
-
   .subscribe-text {
     text-align: left;
+  }
+
+  .footer-social-media {
+    margin-right: 80px;
+    margin-bottom: 0;
+    align-items: flex-start;
   }
 
   .subscribe-form {
@@ -1212,12 +1206,6 @@ img {
   .footer-content {
     margin-right: 120px;
     margin-bottom: 0;
-  }
-
-  .footer-social-media {
-    margin-right: 80px;
-    margin-bottom: 0;
-    align-items: flex-start;
   }
 
   .footer-subscribe {
